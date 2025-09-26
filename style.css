@@ -1,3 +1,9 @@
+/*
+Name: Brady Margulis
+Class: CPSC-332 Web Development
+Assignment: Homework 2
+Last Modified: Sep. 25, 2025
+*/
 :root{
     --color-light: #fff1df;
     --color-dark: #222d50;;
@@ -13,8 +19,22 @@ body{
 header{
     background-color: var(--color-dark);
     color: var(--color-light);
-    text-align: center;
     height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    flex-basis: 70%;
+}
+
+a{
+    color: var(--color-light);
+}
+
+#header_image{
+    height: 90%;
+    background-color: var(--color-light);
 }
 
 #flexbox{
@@ -42,7 +62,7 @@ header{
     flex-basis: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .section{
@@ -56,9 +76,14 @@ header{
 }
 
 img{
+    /* EXTRA CREDIT special effect: image rounding*/
     border-radius: 20%;
     border: 5px solid var(--color-light);
     justify-content: center;
+}
+
+li img{
+    border: 5px solid var(--color-dark);
 }
 
 #content.section{
@@ -80,4 +105,8 @@ table{
 
 thead, tbody > :nth-child(even){
     background-color: #c9c1b6;
+}
+
+#nature{
+    display: flex;
 }

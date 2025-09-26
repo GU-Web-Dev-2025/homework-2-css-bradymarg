@@ -1,3 +1,9 @@
+<!--
+Name: Brady Margulis
+Class: CPSC-332 Web Development
+Assignment: Homework 2
+Last Modified: Sep. 25, 2025
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +11,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brady Margulis CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
 </head>
 <body>
     <header>
-        Header
+        <div class="section">
+            <img src="favicon.svg" alt="vector art of my initials" id="header_image">
+        </div>
+        <nav class="section" id="nav">
+            <ul>
+                <li><a href="#career">Career Summary</a></li>
+                <li><a href="#education">Education and Qualifications</a></li>
+                <li><a href="#interests">Interests and Hobbies</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <div id="flexbox">
@@ -130,6 +146,36 @@
                 </section>
                 <section class="section" id="interests">
                     <h2>Interests and Hobbies</h2>
+
+                    <ol type="I">
+                        <li>
+                            <h2>Art</h2>
+                            <p>
+                                In my spare time, I enjoy creating digital art on my laptop. I use a touchscreen-compatible pen
+                                and paint on my laptop's screen like a canvas!
+                            </p>
+                        </li>
+                        <li>
+                            <h2>Nature</h2>
+                            <div id="nature">
+                                <p>
+                                    I enjoy lots of different parts of the natural world. I like learning new things about nature, including
+                                    its plants, animals, and geography! At the moment, I'm really interested in spiders. Click the image
+                                    to the right to learn about one of my favorite ones!
+                                </p>
+                            <a href="https://en.wikipedia.org/wiki/Wolf_spider" target="_blank">
+                                <img src="wolf_spider.jpg" alt="Hogna lenta, a species of wolf spider" width="100">
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <h2>Games</h2>
+                            <p>
+                                I also enjoy playing various games of all varieties! I mostly play video games made by indie developers,
+                                but I also play board games and tabletop role-playing games (TTRPGs), such as Dungeons & Dragons!
+                            </p>
+                        </li>
+                    </ol>
                 </section>
             </div>
         </div>
